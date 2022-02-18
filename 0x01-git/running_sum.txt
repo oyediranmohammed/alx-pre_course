@@ -1,0 +1,10 @@
+﻿Writing a code to calculate the running sum of a set of numbers except a negative numbers
+
+
+        Define function running_sum with n as its argument,
+                Set total to 0
+                Input n
+                While n is positive
+                        total = total + n
+                return total once n is negative
+                end

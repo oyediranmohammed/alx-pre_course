@@ -1,0 +1,14 @@
+﻿Writing a function to calculate the sum of squares of a set of numbers
+Define a function sum_squares (my_list) then,
+                    Set total to 0,
+                       X to 0,
+                       My_length = len(my_list) + 1
+                      While the value of x is less than the value of length, {
+                         For each element i in my_list,{
+                                     total =  i * i + total
+                                     increase the value of x by 1 i.e
+                                      x = x + 1
+                                      }
+                 return total
+                        }
+                        end

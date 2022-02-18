@@ -1,0 +1,44 @@
+﻿Writing a code to sort three numbers in order
+
+
+Define function sorted_number which takes my_list as argument where my_list takes only three numbers
+        Set new_list = empty list
+                Num1 = 0
+                Num2 = 0
+                Max_num = 0
+        Check if length of my_list is 3
+                If length of my_list is not 3,
+ return “Enter three different numbers”
+                Otherwise 
+                        Num1 = my_list[0]
+                        Num2 = my_list[1]
+                        Max_num = my_list[2]
+                        If my_list is sorted, 
+                                return my_list
+
+
+                        Otherwise If Num2 < Max_num and  Max_num < Num1, 
+        
+                                new_list(0) = Num2 
+                                new_list(1) = Max_num
+                                new_list(2) = Num1 
+
+
+                        Otherwise if Num2 < Num1 and Num1 <  Max_num, 
+        
+new_list(0) = Num2 
+new_list(1) = Num1 
+                                new_list(2) = Max_num 
+                        
+                        Otherwise if Max_num<Num2 and  Num2 < Num1
+
+
+new_list(0) = Max_num
+                                new_list(1) = Num2 
+                                new_list(2) = Num1
+                        Otherwise 
+                                
+new_list(0) = max_num
+new_list(1) = num1
+new_list(2) = num2
+return new_list
