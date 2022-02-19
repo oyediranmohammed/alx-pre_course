@@ -1,9 +1,12 @@
-
 echo "School"
 =======
 echo "ALX School is so cool!"
 
 =======
+=======
+#!/bin/bash
+
+>>>>>>> main
 echo "ALX School is so cool!"
 =======
 echo "School"
